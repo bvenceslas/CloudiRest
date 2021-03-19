@@ -16,6 +16,7 @@ mongoose.connect(process.env.DB_URI, {
 
 // middleares
 app.use(express.json());
+app.use('/api', require('./routes/api'));
 
 
 app.listen(port, () => console.log('server running on port: ', port));
