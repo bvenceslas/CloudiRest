@@ -1,0 +1,5 @@
+PORT = 4000
+DB_URI = mongodb+srv://<username>:<password>@cluster0.72vy5.gcp.mongodb.net/<databaseName>?retryWrites=true&w=majority
+CLOUDINARY_CLOUD_NAME = 
+CLOUDINARY_API_KEY = (15 characters)
+CLOUDINARY_API_SECRET = (27 characters)
